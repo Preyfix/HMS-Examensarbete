@@ -9,7 +9,7 @@ import com.github.junrar.exception.RarException;
 import com.github.junrar.impl.FileVolumeManager;
 import com.github.junrar.rarfile.FileHeader;
 
-public class ArchiveUtil {
+public class RarExtractor {
 
 	public static void extractArchive(File archive, File destination) {
 		Archive arch = null;
