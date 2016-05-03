@@ -9,6 +9,14 @@ import com.github.junrar.exception.RarException;
 import com.github.junrar.impl.FileVolumeManager;
 import com.github.junrar.rarfile.FileHeader;
 
+/**
+ * Adapted from: 
+ * - https://github.com/edmund-wagner/junrar/blob/6f32323c983015d96c64084418793853f514b519/testutil/src/main/java/de/innosystec/unrar/testutil/ExtractArchive.java
+ * 
+ * Original author: 
+ * - Edmund Wagner
+ */
+
 public class RarExtractor {
 
 	public static void extractArchive(File archive, File destination) {
